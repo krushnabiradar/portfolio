@@ -10,8 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Krushna Biradar </span>
             from <span className="purple"> Maharastra, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />I have completed my graduation from Sinhgad Institute of
+            Technology, Lonavala. And recently, I have completed my
+            <span className="purple"> Full Stack Developer</span> course (MERN
+            Stack) by  <span className="purple"> GUVI.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -19,9 +21,6 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

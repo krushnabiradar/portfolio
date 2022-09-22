@@ -22,7 +22,7 @@ function Projects() {
               title="Social Media Web"
               description="Social media web is similar to other social platforms like Facebook and Instagram. Here we can follow/unFollow friends, and upload the images on web. Also we can chat with our friends."
               ghLink="https://github.com/krushnabiradar/social-media-client"
-              demoLink="https://chatify-49.web.app/"
+              demoLink=""
             />
           </Col>
         </Row>

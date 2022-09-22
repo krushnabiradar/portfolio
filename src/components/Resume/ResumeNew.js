@@ -22,17 +22,6 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
@@ -50,6 +39,10 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+        </Row>
+        
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <p>You can download my resume Directly if it fails to load.</p>
         </Row>
       </Container>
     </div>
