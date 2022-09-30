@@ -22,7 +22,7 @@ function Projects() {
               imgPath={Admin}
               isBlog={false}
               title="Admin dashbord using react."
-              description="Admit dashbord using react"
+              description="Admin dashbord using react it is just a simple replica of admin dashboard. In this we can add users by just filling the details."
               ghLink="https://github.com/krushnabiradar/admin-dashboard-reactTask-main"
               demoLink="https://admin-dashboard-reacttask-main.netlify.app/"
             />
