@@ -8,7 +8,8 @@ import {
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logo.png";
+import { MdDeveloperMode } from "react-icons/md";
+
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -35,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <MdDeveloperMode style={{ marginBottom: "2px" }} /> Krushna Biradar.
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
