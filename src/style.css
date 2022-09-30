@@ -407,9 +407,7 @@ html {
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
   }
-  .footer-copywright {
-    text-align: center !important;
-  }
+ 
   
   .footer-body {
     z-index: 1;
@@ -417,10 +415,6 @@ html {
   }
   
   @media (max-width: 767px) {
-    .footer-copywright {
-      text-align: center !important;
-    }
-  
     .footer-body {
       text-align: center !important;
     }
