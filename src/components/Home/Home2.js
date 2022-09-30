@@ -4,6 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
+import { MdEmail } from "react-icons/md";
 
 function Home2() {
   return (
@@ -54,7 +55,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Get in Touch</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
@@ -77,6 +78,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:krushnabiradar1998@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <MdEmail />
                 </a>
               </li>
             </ul>

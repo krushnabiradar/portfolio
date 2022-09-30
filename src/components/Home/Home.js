@@ -24,6 +24,11 @@ function Home() {
                 I'M
                 <strong className="main-name"> KRUSHNA BIRADAR</strong>
               </h1>
+              <p className="heading-description blockquote">
+                Passionate about implementing and launching new projects.
+                Looking to start the career as an entry-level software engineer
+                with a reputed firm driven by technology
+              </p>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
