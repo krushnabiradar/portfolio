@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Student from "../../Assets/Projects/Student.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import Admin from "../../Assets/Projects/Admin.png";
+import FoodApp from "../../Assets/Projects/Food App.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -45,6 +46,19 @@ function Projects() {
               description="Social media web is similar to other social platforms like Facebook and Instagram. Here we can follow/unFollow friends, and upload the images on web. Also we can chat with our friends."
               ghLink="https://github.com/krushnabiradar/social-media-client"
               demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FoodApp}
+              isBlog={false}
+              title="Food Recipe App"
+              description="The Recipe Book Application is a web-based platform designed to help users 
+              organize, discover, and share their favorite recipes. This application provides a 
+              user-friendly interface for creating, categorizing, and searching for 
+              recipes."
+              ghLink="https://github.com/krushnabiradar/recipe-book-frontend"
+              demoLink="https://zingy-cannoli-91f811.netlify.app/"
             />
           </Col>
         </Row>
